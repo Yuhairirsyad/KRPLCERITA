@@ -1,0 +1,36 @@
+body{
+    background-image: url(image/home-bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+@font-face {
+    font-family: judul;
+    src: url(font/HallowenInline.ttf);
+}
+.judultext h1{
+    font-family: judul;
+    font-size: 90px;
+    color: rgb(136, 11, 11);
+}
+.judultext{
+    margin-top: 250px;
+}
+.judultext p{
+    max-width: 600px;
+    font-size: 15px;
+}
+
+/* handphone */
+@media (max-width:576px) {
+.judultext h1{
+    font-size: 39px;
+}
+
+.judultext p{
+    font-size: 12px;
+}
+}
+

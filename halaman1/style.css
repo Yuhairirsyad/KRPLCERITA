@@ -1,0 +1,74 @@
+body{
+    background-image: url(../image/hal1-bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: judul;
+    src: url(../font/HappyHalloween.otf);
+}
+.judul {
+    font-family: judul;
+}
+
+@font-face {
+    font-family: menu;
+    src: url(../font/Mulan.otf);
+}
+.menu ul li{
+    font-family: menu;
+    margin-left: 50px;
+    font-size: 19px;
+}
+
+.teks{
+    margin-top: 150px;
+}
+@font-face {
+    font-family: teksh2;
+    src: url(../font/bloodcrow.ttf);
+}
+.teks h2{
+    font-family: teksh2;
+    color: rgba(117, 1, 1, 0.837);
+    margin-bottom: 50px;
+}
+.teks p{
+    display: inline-block;
+    width: 50%;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.teks img{
+    width: 20%;
+}
+.teks img:hover{
+    width: 25%;
+    transition:5s ease;
+}
+
+/* Media query */
+/* tablet */
+@media (max-width:991px){
+    .teks img{
+        width: 30%;
+    }
+    .teks img:hover{
+        width: 35%;
+        transition:5s ease;
+    }
+}
+
+/* handphone */
+@media (max-width:576px) {
+.teks img{
+    width: 40%;
+}
+.teks img:hover{
+    width: 45%;
+    transition:5s ease;
+}
+}

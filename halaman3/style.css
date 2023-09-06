@@ -1,0 +1,147 @@
+body{
+    background-image: url(../image/hal3-bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.navbar-nav{
+    margin-bottom: 10px;
+} 
+
+@font-face {
+    font-family: happy;
+    src: url(../font/HappyHalloween.otf);
+}
+.home{
+    font-family: happy;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: menu;
+    src: url(../font/Mulan.otf);
+}
+.nav-item {
+    font-family: menu;
+    padding: 5px 0;
+    margin-left: 0.8rem;
+    font-size: 17px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 1000;
+}
+
+@font-face {
+    font-family: teks3;
+    src: url(../font/bloodcrow.ttf);
+}
+.text3 h2{
+    font-family: teks3;
+    font-size: 50px;
+    color: rgba(137, 3, 3, 0.837);
+}
+.text3{
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.text3 img{
+    margin-top: 30px;
+    width: 45%;
+}
+.text3 img:hover{
+    width: 50%;
+    transition:5s ease;
+}
+.text3 p{
+    display: block;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+/* Media query */
+
+/* table */
+@media (max-width:991px) {
+.navbar{
+    width: 110px;
+}
+
+.home{
+    font-size: 15px;
+}
+
+.nav-item{
+    font-size: 16px;
+    margin-left: 0.5rem;
+}
+
+.navbar-toggler-icon{
+    width: 20px;
+}
+
+.text3 img{
+    width: 60%;
+    margin-bottom: 30px;
+}
+.text3 img:hover{
+    width: 70%;
+    transition:5s ease;}
+
+.text3 h2{
+    font-size: 40px;
+}
+
+.text3 p{
+    width: 75%;
+}
+}
+
+/* handphone */
+@media (max-width:576px) {
+.navbar{
+    width: 70px;
+}
+
+.nav-item{
+    font-size: 70%;
+    margin-left: 2px;
+}
+
+.home{
+    font-size: 10px;
+}
+
+.navbar-toggler-icon{
+    width: 20px;
+}
+
+.text3 p{
+    width:80%;
+    font-size: 15px;
+}
+
+.text3 h2{
+    font-size: 30px;
+    width: 60%;
+}
+
+.text3 img{
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.text3 img:hover{
+    width: 78%;
+    transition:5s ease;}
+
+
+}
+
